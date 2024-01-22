@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SevenSegmentWing", "SevenSegmentWing", "{77DBF0E1-A6D3-4A7F-B6A2-53745763470B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenSegmentWing", "SevenSegmentWing\Driver\SevenSegmentWing.csproj", "{46AD55AE-F352-4514-9170-F0D8869DBDA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{14625637-657A-491E-8131-5DD95439F252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenSegmentWing_Sample", "SevenSegmentWing\Sample\SevenSegmentWing_Sample\SevenSegmentWing_Sample.csproj", "{642A03EB-6658-4ED8-81AC-49D74927086D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642A03EB-6658-4ED8-81AC-49D74927086D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46AD55AE-F352-4514-9170-F0D8869DBDA3} = {77DBF0E1-A6D3-4A7F-B6A2-53745763470B}
+		{14625637-657A-491E-8131-5DD95439F252} = {77DBF0E1-A6D3-4A7F-B6A2-53745763470B}
+		{642A03EB-6658-4ED8-81AC-49D74927086D} = {14625637-657A-491E-8131-5DD95439F252}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C0A2C3-E94A-4F3E-98AF-A18CD0C09A4D}
+	EndGlobalSection
+EndGlobal
