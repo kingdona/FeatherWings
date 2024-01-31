@@ -90,7 +90,33 @@ namespace Meadow.Foundation.FeatherWings
             };
         }
 
-        public void SetDisplay(byte character, byte digit, bool useDecimal)
+        public void SetDisplay(string display)
+        {
+            if(display.Length > 4 || display.Length < 1)
+            {
+                throw new IndexOutOfRangeException("SevenSegmentWing display must be between 1 and 4 characters");
+            }
+
+            var characters = display.ToCharArray();
+
+            for (int i = 0; i < characters.Length;  i++) 
+            {
+                int result;
+                
+                bool success = Int32.TryParse(characters[i].ToString(), out result);
+                             
+                if (success)
+                {
+                    SetDigit((byte)result, (byte)i, false);                    
+                }
+                else
+                {
+                    SetDigit((byte)characters[i], (byte)i, false);
+                }                
+            }
+        }
+
+        public void SetDigit(byte character, byte digit, bool useDecimal)
         {
             if (digit < 0 || digit > 3)
             {

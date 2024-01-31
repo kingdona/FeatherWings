@@ -23,12 +23,14 @@ namespace Featherwings.SevenSegmentWing_Sample
         {
             Resolver.Log.Info("Run...");
 
-            sevenSegment.SetDisplay((byte)'F', 0, true);
-            sevenSegment.SetDisplay(7, 1, true);
-            sevenSegment.SetDisplay((byte)'X', 2, true);
-            sevenSegment.SetDisplay(2, 4, true);
+            sevenSegment.SetDisplay("H0L2");
 
-            sevenSegment.ColonOn = true;
+            //sevenSegment.SetDigit((byte)'F', 0, true);
+            //sevenSegment.SetDigit(7, 1, true);
+            //sevenSegment.SetDigit((byte)'X', 2, true);
+            //sevenSegment.SetDigit(2, 4, true);
+
+            //sevenSegment.ColonOn = true;
 
             return Task.CompletedTask;
         }
